@@ -1,0 +1,149 @@
+---
+title: "Dados Trabalho Final"
+author: "gabriel maurício"
+header-includes:
+   - \usepackage{caption, graphicx, subfig, epstopdf, enumitem}
+output: 
+  pdf_document
+---
+
+```{r, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+library(patchwork)
+library(hrbrthemes)
+library(ggplot2)
+library(dplyr)
+library(Polychrome)
+tabela <- read.csv("vgsales.csv") %>% tibble()
+```
+
+É importante salientar que as conclusões tomadas levam em consideração o dataset, e que este possui dados apenas até o ano de 2016.
+ 
+\newpage
+ 
+```{r, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+tabela %>%
+  head(10)
+
+view(tabela)
+
+```
+ 
+ 
+```{r, echo=FALSE, fig.height=5, fig.unit="cm", message=FALSE, warning=FALSE}
+vendas_por_plataforma <- tabela %>% 
+  group_by(Platform) %>% 
+  summarise(Total = sum(Global_Sales)) %>% 
+  arrange(desc(Total))
+
+plataforma_top20_hist <- vendas_por_plataforma %>%
+  head(20) %>% 
+  ggplot(aes(x = Platform, y = Total)) +
+    geom_bar(aes(fill = Platform), stat = "identity", color="black") +
+    guides(fill = "none") +
+    scale_fill_manual(values=as.vector(glasbey.colors(20))) +
+    labs(
+      y = "vendas globais de jogos (em milhões)",
+      x = "plataforma"
+    ) +
+    theme(
+      panel.background = element_rect(fill = "#EEF0E5")
+      )
+
+plataforma_top20_hist
+```
+
+No gráfico acima, onde estão as 20 plataformas de jogos mais populeres historicamente, observa-se que quem lidera é o PlayStation2, levando em consideração a quantidade de jogos vendidos globalmente.
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.height=4, fig.unit="cm"}
+vendas_plataforma_top20<- tabela %>% 
+  group_by(Platform, Year) %>% 
+  summarise(Vendas_Globais = sum(Global_Sales)) %>% 
+  filter(Platform %in% head(vendas_por_plataforma$Platform, 20))
+
+plataforma_dens <- vendas_plataforma_top20 %>% 
+  ggplot(aes(x=Year, group=Platform, fill=Platform)) +
+    geom_density(adjust=1.5,position="fill")  +
+    scale_fill_manual(values=as.vector(glasbey.colors(20))) +
+    labs(
+        y = "proporção das vendas globais",
+        x = "anos",
+        fill = "plataforma"
+      ) +
+    theme(
+      legend.position = "bottom",
+      legend.box = "horizontal",     
+      legend.direction = "horizontal",
+      legend.spacing.x = unit(0.2, "cm"),
+      panel.background = element_rect(fill = "#EEF0E5"),
+      panel.grid.major = element_line(color = "black", linetype = "dotted"),
+      panel.grid.minor = element_blank() 
+      ) +
+    guides(fill = guide_legend(title.position = "top" ,ncol = 9))
+
+
+plataforma_dens
+
+```
+No gráfico acima, podemos ver a evolução na proporção de jogos vendidos para cada plataforma ao longo do tempo. É interessante notar como podemos perceber as diferentes fases do mundo dos videogames, ao observarmos a predominância dos jogos vendidos para cada plataforma em cada época. Por exemplo, observe como o Atari2600 e NES dominavam no começo dos anos 1980, mas desaparecem totalmente no gráfico antes dos anos 2000, ou como Xbox One, PlayStation4 e WiiU concentram as vendas de jogos no final a partir do meio de 2010 até o fim do gráfico (2016), ou como o PlayStation1, o GameBoy, o NES e o SNES tiveram seu auge nos anos 1990, entre outros casos.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.height=4, fig.unit="cm"}
+publishers_pop <- tabela %>% 
+  group_by(Publisher) %>% 
+  summarise(Total = sum(Global_Sales)) %>% 
+  arrange(desc(Total)) 
+
+
+publishers_hist <-  publishers_pop %>% 
+  head(10) %>% 
+  ggplot(aes(x = Publisher, y = Total)) +
+    geom_bar(aes(fill = Publisher),stat = "identity", color="black") +
+    guides(fill = "none") +
+    scale_fill_brewer(palette="Paired") +
+    theme(
+        axis.text.x = element_text(angle = 30, hjust = 1),
+        panel.background = element_rect(fill = "#EEF0E5"),
+          ) +
+    labs(
+      y = "vendas globais (em milhões)",
+      x = "publisher"
+    )
+
+publishers_hist
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.height=4, fig.unit="cm"}
+publisher_year <- tabela %>% 
+  group_by(Publisher, Year) %>% 
+  summarise(Vendas_Globais = sum(Global_Sales)) %>% 
+  filter(Publisher %in% head(publishers_pop$Publisher, 10))
+
+publisher_dens <- publisher_year %>% 
+  ggplot(aes(x=Year, group=Publisher, fill=Publisher)) +
+    geom_density(adjust=1.5,position="fill")  +
+    scale_fill_brewer(palette="Paired") +
+    labs(
+        y = "proporção das vendas globais",
+        x = "anos",
+        fill = "publisher"
+      ) +
+    theme(
+      plot.margin = margin(0, 1, 0, 1, "cm"),
+      legend.position = "bottom",
+      legend.box = "horizontal",     
+      legend.direction = "horizontal",
+      legend.spacing.x = unit(0.2, "cm"),
+      panel.background = element_rect(fill = "#EEF0E5"),
+      panel.grid.major = element_line(color = "black", linetype = "dotted"),
+      panel.grid.minor = element_blank() 
+    )+
+  guides(fill = guide_legend(title.position = "top" ,ncol = 3))
+
+
+publisher_dens
+```
+
+Nos gráficos acima, onde estão as 10 empresas de jogos mais populares historicamente, é possível observar a Nintendo no topo, levando em consideração a quantidade de jogos vendidos globalmente. Além disso, podemos observar a evolução da presença dessas empresas no mercado, onde vemos que empresas como Actvision, Namco e Nintendo dominavam nos anos 1980, mas passaram a dividir espaço para empresas mais novas que ganharam mais destaque a partir dos anos 1990 e 2000, como a Ubisoft,THQ e Take-Two Interactive.
+
+
