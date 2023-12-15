@@ -73,6 +73,7 @@
 
 \usepackage{soulutf8}
 \usepackage{hyperref}
+\usepackage{caption, graphicx, subfig, epstopdf, enumitem}
 
 \begin{document}
 
@@ -253,6 +254,115 @@ melhor visualização e compreensão das relações existentes entre
 variáveis via gráficos de diferentes tipos.
 
 \section{Análise de Dados}
+
+Desde 1950, cientistas da computação construíam sistemas de jogos
+simples para principalmente demonstrarem o poder dos computadores da
+época. Com o passar dos anos, o poder computacional veio crescendo
+proporcionalmente, resultando na criação do primeiro jogo de arcade e do
+primeiro console de videogame doméstico no início da década de 1970 nos
+Estados Unidos, onde marca o nascimento da indústria moderna dos jogos.
+Com a ``democratização'' dos jogos de videogame, em 1972, o jogo Pong da
+Atari se torna o primeiro jogo de arcade bem sucedido, iniciando assim a
+era da crescente popularização de videogames.
+
+\begin{figure}[h]
+\includegraphics{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-4-1} \caption{Popularidade dos jogos no decorrer dos anos}\label{fig:unnamed-chunk-4}
+\end{figure}
+
+O gráfico acima demonstra a relação proporcionalmente direta entre o
+número de jogos desenvolvidos/produzidos no ano, representado pela linha
+azul, e a popularidade (medida pela vendas globais), por sua vez
+representada pela linha verde.
+
+Graças aos contínuos avanços tecnológicos, novas plataformas, capazes de
+executarem videogames cada vez mais complexos computacionalmente, foram
+criadas.
+
+\begin{figure}[h]
+\includegraphics{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-5-1} \caption{Plataformas mais populares}\label{fig:unnamed-chunk-5}
+\end{figure}
+
+No gráfico acima, onde estão as 20 plataformas de jogos mais populeres
+historicamente, observa-se que quem lidera é o PlayStation2, levando em
+consideração a quantidade de jogos vendidos globalmente.
+
+Como é de se esperar, videogames acabam abordando diferentes temas,
+formas de jogabilidades e dentre outras mecânicas. Com isso, os gêneros
+dos jogos acabam também influenciando as tendências do mercado, assim
+como as plataformas nas quais esses gêneros podem ser explorados ao
+máximo.
+
+\begin{figure}[h]
+\subfloat[Popularidade dos gêneros no decorrer dos anos\label{fig:unnamed-chunk-6-1}]{\includegraphics[width=.55\linewidth,]{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-1} }\subfloat[Popularidade dos gêneros nas plataformas mais populares\label{fig:unnamed-chunk-6-2}]{\includegraphics[width=.55\linewidth,]{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-2} }\caption{Influência dos gêneros de jogos}\label{fig:unnamed-chunk-6}
+\end{figure}
+
+No gráfico (b), vemos a evolução das vendas de jogos divididas pelo
+gênero. Naturalmente, todos os gêneros tiveram um aumento de vendas por
+volta do anos 1990, pois é nessa época que os videogames começaram a se
+difundir mais e se consolidaram na indústria global de entreternimento.
+É nessa época que consoles clássicos como o SNES e o PlayStation1 são
+lançados. É interessante notar como desde os anos 1980 até os anos 2010
+o genêro de Ação sempre foi o mais popular entre os jogos, e conforme o
+tempo passa essa distância só aumentou. O gráfico de ``mapa de calor''
+(a) mostra os gêneros de jogsos mais populares para as 10 plataformas
+mais populares. É interessanre notar como a genêro de Ação costuma ser o
+mais popular entre todas as plataformas, com exceção do Nintendo Wii,
+onde o genêro de Esportes é visivelmente o mais popular. Tal fato se
+deve a própria natureza do console Wii, que necessita de mais movimento
+geral do corpo para os jogos, algo intensamente explorado pela própria
+da Nintendo, principalmente no marketing, que juntamente com outras
+empresas, desenvolveram diversos jogos de esportes se aproveitando da
+movimentação dos jogadores. Outro ponto interessante e o grande número
+de jogos de Tiro vendidos para o Xbox360, algo que acreditamos que se
+deve a franquia de jogos Halo, uma série de jogos de tiro em primeira
+pessoa bastante popular, produzida exclusivamente para os consoles da
+Microsoft. Além disso, observa-se ainda que muitos jogos de Esportes
+também foram vendidos para o PlayStation2, o que crêemos se explicar
+pela popularização das franquias de jogos de futebol FIFA e PES a partir
+dos anos 2000.
+
+Assim como a Atari, novas empresas surgiram e obtiveram grande sucesso
+com suas inovações e produtos, se destacando no mercado.
+
+\begin{figure}[h]
+\includegraphics{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-7-1} \caption{Popularidade das empresas}\label{fig:unnamed-chunk-7}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h]
+\includegraphics{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-8-1} \caption{Popularidade das empresas ao longo dos anos}\label{fig:unnamed-chunk-8}
+\end{figure}
+
+Nos gráficos acima, onde estão as 10 empresas de jogos mais populares
+historicamente, é possível observar a Nintendo no topo, levando em
+consideração a quantidade de jogos vendidos globalmente. Além disso,
+podemos observar a evolução da presença dessas companhias no mercado,
+onde vemos que empresas como Actvision, Namco e Nintendo dominavam nos
+anos 1980, mas passaram a dividir espaço com empresas mais novas que
+ganharam mais destaque a partir dos anos 1990 e 2000, como a Ubisoft,THQ
+e Take-Two Interactive.
+
+\newpage
+
+O conjunto de dados escolhido ranqueia os jogos mais vendidos de 1980
+até 2016. Ao reunir o top 100 jogos mais vendidos, conseguimos observar
+algumas coisas.
+
+\begin{figure}[h]
+\subfloat[Principais empresas do Top 100 jogos\label{fig:unnamed-chunk-9-1}]{\includegraphics[width=.55\linewidth,]{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1} }\subfloat[Proporção de gêneros no Top 100 jogos\label{fig:unnamed-chunk-9-2}]{\includegraphics[width=.55\linewidth,]{vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-2} }\caption{Relação dos top 100 jogos}\label{fig:unnamed-chunk-9}
+\end{figure}
+
+No gráfico (a), nota-se o tamanho sucesso da Nintendo no mercados dos
+videogames. Vários de seus produtos estão contidos no top 100, além de
+ser um empresa que aborda vários gêneros diferentes em suas obras,
+contrário de outras empresas que se ``especializam'' em certos gêneros,
+como a Activision e Take-Two Interactive. No gráfico (b), podemos
+observar a tendências dos jogos mais bem sucedidos serem dos gêneros de
+``Shooter'', ``Platform'', ``Action'' e ``Role-playing''. É fácil
+perceber esta tendência ao analisar grandes clássicos, como jogos da
+franquia Pokémon (Role-playing), Super Mário (Platform), Grand Theft
+Auto (Action) e Call of Duty (Shooter).
 
 \section{Conclusão}
 

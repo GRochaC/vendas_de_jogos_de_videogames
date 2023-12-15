@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  15 DEC 2023 00:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  15 DEC 2023 03:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,43 +296,97 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip78
+) (c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+(c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \ifx \@captype \xfigure \vskip \abovecaptionskip \fi {\ifturnofflinenums \else \ifnumlines \internallinenumbers \fi \fi \sbox \@tempboxa {\bf #1.\quad \rm #2}\ifdim \wd \@tempboxa >.9\hsize \bf #1.\quad \rm \relax #2\par \else {\centering \bf #1.\rm \quad #2 \vskip 1sp} \fi } \ifx \@captype \xfigure \else \vskip \belowcaptionskip \fi } on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+) (c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count299
+\sf@farskip=\skip79
+\sf@captopadj=\dimen174
+\sf@capskip=\skip80
+\sf@nearskip=\skip81
+\c@subfigure=\count300
+\c@subfigure@save=\count301
+\c@lofdepth=\count302
+\c@subtable=\count303
+\c@subtable@save=\count304
+\c@lotdepth=\count305
+\sf@top=\skip82
+\sf@bottom=\skip83
+) (c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+(c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+) (c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+(c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip84
+\enit@outerparindent=\dimen175
+\enit@toks=\toks27
+\enit@inbox=\box56
+\enit@count@id=\count306
+\enitdp@description=\count307
 ) (c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box57
 ) (./vendas_de_jogos_de_videogames.aux)
 \openout1 = `vendas_de_jogos_de_videogames.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-(c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-(c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 Package trackchanges Warning: TrackChanges is not compatable with the 
 (trackchanges)                'ulem' package.
 (trackchanges)                Use the 'soul' package instead.
 
-\c@maskedRefs=\count298
+\c@maskedRefs=\count309
 (c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -345,140 +399,143 @@ Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 77.
+Package hyperref Info: Link coloring OFF on input line 78.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 123.
+(Font)              <7> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 123.
+(Font)              <5> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 123.
+(Font)              <8> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 123.
+(Font)              <6> on input line 124.
 
-Overfull \hbox (35.2657pt too wide) in paragraph at lines 159--161
+Overfull \hbox (35.2657pt too wide) in paragraph at lines 160--162
 []\OT1/cmr/m/n/10 Exercitar os con-hec-i-men-tos adquiri-dos ao longo do curso ``EST0001 - COMPUTA[][]AO 
  []
 
 [1{c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (55.29361pt too wide) in paragraph at lines 175--181
+Overfull \hbox (55.29361pt too wide) in paragraph at lines 176--182
 \OT1/cmr/m/n/10 Este doc-u-mento con-siste no re-lat^^Sorio do tra-balho fi-nal da dis-ci-plina ``EST0001 - COMPUTA[][]AO 
  []
 
 
-Overfull \hbox (3.65451pt too wide) in paragraph at lines 175--181
+Overfull \hbox (3.65451pt too wide) in paragraph at lines 176--182
 \OT1/cmr/m/n/10 EM ES-TAT[]ISTICA 1''. Nele se en-con-tra o de-sen-volvi-mento da an^^Salise do con-junto de 
  []
 
 
-Overfull \hbox (15.18237pt too wide) in paragraph at lines 175--181
+Overfull \hbox (15.18237pt too wide) in paragraph at lines 176--182
 \OT1/cmr/m/n/10 da-dos es-col-hido pelo grupo uti-lizando as fer-ra-men-tas prove-nientes do R Mark-down e das 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 182.
+(Font)              size <10.95> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 182.
+(Font)              size <10.95> substituted on input line 183.
 
 
-Overfull \hbox (11.98795pt too wide) in paragraph at lines 184--192
+Overfull \hbox (11.98795pt too wide) in paragraph at lines 185--193
 []\OT1/cmr/m/n/10 A ind^^Sustria de jo-gos de videogames emergiu como uma for^^Xca poderosa e in-o-vadora 
  []
 
 
-Overfull \hbox (25.57135pt too wide) in paragraph at lines 184--192
+Overfull \hbox (25.57135pt too wide) in paragraph at lines 185--193
 \OT1/cmr/m/n/10 no cen^^Sario do en-treten-i-mento global, ex-per-i-men-tando um cresci-mento ex-po-nen-cial ao longo 
  []
 
 
-Overfull \hbox (7.6546pt too wide) in paragraph at lines 184--192
+Overfull \hbox (7.6546pt too wide) in paragraph at lines 185--193
 \OT1/cmr/m/n/10 das ^^Sultimas d^^Secadas. Este pro-jeto fi-nal da dis-ci-plina ``EST0001 - COMPUTA[][]AO EM 
  []
 
 
-Overfull \hbox (3.15459pt too wide) in paragraph at lines 184--192
+Overfull \hbox (3.15459pt too wide) in paragraph at lines 185--193
 \OT1/cmr/m/n/10 ES-TAT[]ISTICA 1'' prop~oe uma an^^Salise es-tat^^S^^Pstica apro-fun-dada das ven-das de jo-gos de 
  []
 
 
-Overfull \hbox (9.26575pt too wide) in paragraph at lines 184--192
+Overfull \hbox (9.26575pt too wide) in paragraph at lines 185--193
 \OT1/cmr/m/n/10 videogames, visando aplicar os con-hec-i-men-tos adquiri-dos du-rante o curso para ex-plo-rar 
  []
 
 
-Overfull \hbox (8.48781pt too wide) in paragraph at lines 184--192
+Overfull \hbox (8.48781pt too wide) in paragraph at lines 185--193
 \OT1/cmr/m/n/10 padr~oes, tend^encias e in-sights rel-e-vantes pre-sentes em um con-junto de da-dos es-pec^^S^^Pfico.  
  []
 
 
-Overfull \hbox (9.21004pt too wide) in paragraph at lines 195--202
+Overfull \hbox (9.21004pt too wide) in paragraph at lines 196--203
 []\OT1/cmr/m/n/10 A es-colha de in-ves-ti-gar o mer-cado de videogames como tema cen-tral desta an^^Salise 
  []
 
 
-Overfull \hbox (28.98799pt too wide) in paragraph at lines 195--202
+Overfull \hbox (28.98799pt too wide) in paragraph at lines 196--203
 \OT1/cmr/m/n/10 ^^Se respal-dada pela sua im-port^ancia econ^omica e cul-tural. No con-texto da con-stante evolu^^Xc~ao 
  []
 
 
-Overfull \hbox (20.01561pt too wide) in paragraph at lines 195--202
+Overfull \hbox (20.01561pt too wide) in paragraph at lines 196--203
 \OT1/cmr/m/n/10 tec-nol^^Sogica e do cres-cente in-ter-esse pela m^^S^^Pdia dig-i-tal, com-preen-der as din^amicas das ven- 
  []
 
 
-Overfull \hbox (26.43233pt too wide) in paragraph at lines 195--202
+Overfull \hbox (26.43233pt too wide) in paragraph at lines 196--203
 \OT1/cmr/m/n/10 das de jo-gos torna-se n~ao ape-nas uma ne-ces-si-dade para os de-sen-volve-dores e dis-tribuidores, 
  []
 
 
-Overfull \hbox (5.84895pt too wide) in paragraph at lines 195--202
+Overfull \hbox (5.84895pt too wide) in paragraph at lines 196--203
 \OT1/cmr/m/n/10 mas tamb^^Sem um el-e-mento cru-cial para os in-vesti-dores que bus-cam en-ten-der e ex-plo-rar 
  []
 
 
-Overfull \hbox (13.71005pt too wide) in paragraph at lines 203--208
+Overfull \hbox (13.71005pt too wide) in paragraph at lines 204--209
 []\OT1/cmr/m/n/10 A ind^^Sustria de jo-gos n~ao ^^Se ape-nas um mer-cado; ^^Se um ecos-sis-tema din^amico que re- 
  []
 
 
-Overfull \hbox (23.73788pt too wide) in paragraph at lines 203--208
+Overfull \hbox (23.73788pt too wide) in paragraph at lines 204--209
 \OT1/cmr/m/n/10 flete as pre-fer^encias e com-por-ta-men-tos em con-stante muta^^Xc~ao dos con-sum-i-dores. A an^^Salise 
  []
 
 
-Overfull \hbox (16.54341pt too wide) in paragraph at lines 203--208
+Overfull \hbox (16.54341pt too wide) in paragraph at lines 204--209
 \OT1/cmr/m/n/10 es-tat^^S^^Pstica desse cen^^Sario n~ao ape-nas ilu-mina as tend^encias emer-gentes, mas tamb^^Sem ofer- 
  []
 
 
-Overfull \hbox (11.12672pt too wide) in paragraph at lines 211--214
+Overfull \hbox (11.12672pt too wide) in paragraph at lines 212--215
 []\OT1/cmr/m/n/10 O cerne deste pro-jeto ^^Se a aplica^^Xc~ao pr^^Satica dos con-hec-i-men-tos adquiri-dos ao longo 
  []
 
 
-Overfull \hbox (9.0434pt too wide) in paragraph at lines 211--214
+Overfull \hbox (9.0434pt too wide) in paragraph at lines 212--215
 \OT1/cmr/m/n/10 do curso ``EST0001 - COMPUTA[][]AO EM ES-TAT[]ISTICA 1''. Os ob-je-tivos es-pec^^S^^Pficos 
  []
 
 
-Overfull \hbox (18.338pt too wide) in paragraph at lines 216--217
+Overfull \hbox (18.338pt too wide) in paragraph at lines 217--218
 []\OT1/cmr/bx/n/10 An^^Salise Ex-plo-rat^^Soria dos Da-dos:  \OT1/cmr/m/n/10 Re-alizar uma in-ves-tiga^^Xc~ao pro-funda do con- 
  []
 
 
-Overfull \hbox (16.96007pt too wide) in paragraph at lines 216--217
+Overfull \hbox (16.96007pt too wide) in paragraph at lines 217--218
 \OT1/cmr/m/n/10 junto de da-dos es-col-hido, bus-cando iden-ti-ficar padr~oes, tend^encias e car-ac-ter^^S^^Psticas 
  []
 
 
-Overfull \hbox (37.71017pt too wide) in paragraph at lines 216--217
+Overfull \hbox (37.71017pt too wide) in paragraph at lines 217--218
 \OT1/cmr/m/n/10 dis-tin-ti-vas no mer-cado de jo-gos de videogame. Isso in-clui uma com-preens~ao abrangente 
  []
 
 
-Overfull \hbox (6.2101pt too wide) in paragraph at lines 216--217
+Overfull \hbox (6.2101pt too wide) in paragraph at lines 217--218
 \OT1/cmr/m/n/10 das vari^^Saveis en-volvi-das, tais como platafor-mas, g^eneros, regi~oes e per^^S^^Podos tem- 
  []
 
@@ -486,112 +543,112 @@ Overfull \hbox (6.2101pt too wide) in paragraph at lines 216--217
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [2]
-Overfull \hbox (7.36871pt too wide) in paragraph at lines 218--219
+Overfull \hbox (7.36871pt too wide) in paragraph at lines 219--220
 []\OT1/cmr/bx/n/10 Utiliza^^Xc~ao de Fer-ra-menta R:  \OT1/cmr/m/n/10 Aplicar ha-bil-i-dades de pro-grama^^Xc~ao em R, ex- 
  []
 
 
-Overfull \hbox (1.93236pt too wide) in paragraph at lines 218--219
+Overfull \hbox (1.93236pt too wide) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 plo-rando as fun-cional-i-dades das bib-liote-cas gg-plot e tidy-verse para criar vi-su-al- 
  []
 
 
-Overfull \hbox (12.2934pt too wide) in paragraph at lines 218--219
+Overfull \hbox (12.2934pt too wide) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 iza^^Xc~oes im-pac-tantes. O uso dessas fer-ra-men-tas n~ao ape-nas fa-cilita a in-ter-preta^^Xc~ao 
  []
 
 
-Overfull \hbox (21.59903pt too wide) in paragraph at lines 218--219
+Overfull \hbox (21.59903pt too wide) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 dos da-dos, mas tamb^^Sem per-mite uma co-mu-nica^^Xc~ao efi-caz das de-scober-tas, tor-nando 
  []
 
 
-Overfull \hbox (9.8879pt too wide) in paragraph at lines 220--221
+Overfull \hbox (9.8879pt too wide) in paragraph at lines 221--222
 []\OT1/cmr/bx/n/10 Extra^^Xc~ao de In-sights Es-trat^^Segicos:  \OT1/cmr/m/n/10 Al^^Sem de de-scr-ever o panorama at-ual do 
  []
 
 
-Overfull \hbox (7.18225pt too wide) in paragraph at lines 220--221
+Overfull \hbox (7.18225pt too wide) in paragraph at lines 221--222
 \OT1/cmr/m/n/10 mer-cado, o pro-jeto visa ex-trair in-sights es-tat^^S^^Psticos que pos-sam ori-en-tar de-cis~oes 
  []
 
 
-Overfull \hbox (1.21004pt too wide) in paragraph at lines 220--221
+Overfull \hbox (1.21004pt too wide) in paragraph at lines 221--222
 \OT1/cmr/m/n/10 es-trat^^Segicas na ind^^Sustria de videogames. Isso pode in-cluir re-comenda^^Xc~oes so-bre 
  []
 
 
-Overfull \hbox (19.82117pt too wide) in paragraph at lines 220--221
+Overfull \hbox (19.82117pt too wide) in paragraph at lines 221--222
 \OT1/cmr/m/n/10 lan^^Xcamentos de jo-gos, seg-menta^^Xc~ao de p^^Sublico-alvo ou at^^Se mesmo proje^^Xc~oes de ven- 
  []
 
 
-Overfull \hbox (19.95998pt too wide) in paragraph at lines 224--229
+Overfull \hbox (19.95998pt too wide) in paragraph at lines 225--230
 []\OT1/cmr/m/n/10 Em s^^S^^Pntese, este pro-jeto prop~oe-se a ser mais do que uma sim-ples an^^Salise es-tat^^S^^Pstica; 
  []
 
 
-Overfull \hbox (43.3214pt too wide) in paragraph at lines 224--229
+Overfull \hbox (43.3214pt too wide) in paragraph at lines 225--230
 \OT1/cmr/m/n/10 ^^Se uma ex-plora^^Xc~ao pro-funda e mul-ti-di-men-sional do uni-verso das ven-das de jo-gos de videogames, 
  []
 
 
-Overfull \hbox (9.76561pt too wide) in paragraph at lines 224--229
+Overfull \hbox (9.76561pt too wide) in paragraph at lines 225--230
 \OT1/cmr/m/n/10 desta-cando a in-terse^^Xc~ao en-tre ci^encia de da-dos e uma das for-mas mais din^amicas de ex- 
  []
 
 
-Overfull \hbox (49.07083pt too wide) in paragraph at lines 232--244
+Overfull \hbox (49.07083pt too wide) in paragraph at lines 233--245
 []\OT1/cmr/m/n/10 O banco de da-dos es-col-hido para an^^Salise foi o ``Venda de Jo-gos de Videogames'' ($\OT1/cmtt/m/n/10 https :// 
  []
 
 
-Overfull \hbox (3.12329pt too wide) in paragraph at lines 232--244
+Overfull \hbox (3.12329pt too wide) in paragraph at lines 233--245
 \OT1/cmtt/m/n/10 www [] .kaggle [] .com / code / rafa84miranda / vendas [] -de [] -jogos [] -de [] -videogames$\OT1/cmr/m/n/10 ). Ao ler e 
  []
 
 
-Overfull \hbox (2.32063pt too wide) in paragraph at lines 232--244
+Overfull \hbox (2.32063pt too wide) in paragraph at lines 233--245
 \OT1/cmr/m/n/10 car-regar o banco de da-dos \OT1/cmtt/m/n/10 vgsales.csv\OT1/cmr/m/n/10 , a tabela re-tor-nada cont^^Sem vari^^Saveis que n~ao 
  []
 
 
-Overfull \hbox (25.37682pt too wide) in paragraph at lines 232--244
+Overfull \hbox (25.37682pt too wide) in paragraph at lines 233--245
 \OT1/cmr/m/n/10 s~ao rel-e-vantes para este pro-jeto que visa o im-pacto da ind^^Sustria dos videogames no cen^^Sario 
  []
 
 
-Overfull \hbox (2.0226pt too wide) in paragraph at lines 232--244
+Overfull \hbox (2.0226pt too wide) in paragraph at lines 233--245
 \OT1/cmr/m/n/10 global, tais como \OT1/cmtt/m/n/10 NA[]Sales\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 EU[]Sales\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 JP[]Sales \OT1/cmr/m/n/10 e \OT1/cmtt/m/n/10 Other[]Sales \OT1/cmr/m/n/10 que fo-cam em regi~oes 
  []
 
 
-Overfull \hbox (8.51723pt too wide) in paragraph at lines 232--244
+Overfull \hbox (8.51723pt too wide) in paragraph at lines 233--245
 \OT1/cmr/m/n/10 es-pec^^S^^Pficas do globo, difer-ente da vari^^Savel \OT1/cmtt/m/n/10 Global[]Sales \OT1/cmr/m/n/10 que con-diz mel-hor com o in-tu- 
  []
 
 
-Overfull \hbox (7.46019pt too wide) in paragraph at lines 232--244
+Overfull \hbox (7.46019pt too wide) in paragraph at lines 233--245
 \OT1/cmr/m/n/10 ito do pro-jeto. Para isso, a uti-liza^^Xc~ao da bib-lioteca tidy e dplyr, am-bas do pa-cote tidy- 
  []
 
 
-Overfull \hbox (2.2379pt too wide) in paragraph at lines 245--249
+Overfull \hbox (2.2379pt too wide) in paragraph at lines 246--250
 []\OT1/cmr/m/n/10 Transformando o banco de da-dos em um dado do tipo tib-ble e us-ando as op^^Xc~oes 
  []
 
 
-Overfull \hbox (7.59906pt too wide) in paragraph at lines 245--249
+Overfull \hbox (7.59906pt too wide) in paragraph at lines 246--250
 \OT1/cmr/m/n/10 de modalagem provi-das pelo dplyr, foi poss^^S^^Pvel o descarte dos da-dos n~ao sig-nif-i-cantes e 
  []
 
 
-Overfull \hbox (12.23795pt too wide) in paragraph at lines 250--254
+Overfull \hbox (12.23795pt too wide) in paragraph at lines 251--255
 []\OT1/cmr/m/n/10 Com o con-junto de da-dos al-in-hado com os ob-je-tivos do tra-balho, sua an^^Salise parte 
  []
 
 
-Overfull \hbox (14.62683pt too wide) in paragraph at lines 250--254
+Overfull \hbox (14.62683pt too wide) in paragraph at lines 251--255
 \OT1/cmr/m/n/10 do uso da bib-lioteca gg-plot que, por sua vez, per-mite mel-hor vi-su-al-iza^^Xc~ao e com-preens~ao 
  []
 
@@ -599,117 +656,453 @@ Overfull \hbox (14.62683pt too wide) in paragraph at lines 250--254
 Underfull \vbox (badness 7649) has occurred while \output is active []
 
 [3]
-Overfull \hbox (6.96007pt too wide) in paragraph at lines 259--267
+Overfull \hbox (3.76563pt too wide) in paragraph at lines 258--267
+[]\OT1/cmr/m/n/10 Desde 1950, ci-en-tis-tas da com-puta^^Xc~ao con-stru^^S^^Pam sis-temas de jo-gos sim-ples para 
+ []
+
+
+Overfull \hbox (2.2935pt too wide) in paragraph at lines 258--267
+\OT1/cmr/m/n/10 prin-ci-pal-mente demon-strarem o poder dos com-puta-dores da ^^Sepoca. Com o pas-sar dos 
+ []
+
+
+Overfull \hbox (1.84908pt too wide) in paragraph at lines 258--267
+\OT1/cmr/m/n/10 anos, o poder com-puta-cional veio crescendo pro-por-cional-mente, re-sul-tando na cria^^Xc~ao 
+ []
+
+
+Overfull \hbox (3.43236pt too wide) in paragraph at lines 258--267
+\OT1/cmr/m/n/10 do primeiro jogo de ar-cade e do primeiro con-sole de videogame dom^^Sestico no in^^S^^Pcio da 
+ []
+
+
+Overfull \hbox (14.62686pt too wide) in paragraph at lines 258--267
+\OT1/cmr/m/n/10 d^^Secada de 1970 nos Es-ta-dos Unidos, onde marca o nasci-mento da ind^^Sustria mod-erna dos 
+ []
+
+
+Overfull \hbox (11.32135pt too wide) in paragraph at lines 258--267
+\OT1/cmr/m/n/10 jo-gos. Com a ``de-moc-ra-tiza^^Xc~ao'' dos jo-gos de videogame, em 1972, o jogo Pong da Atari 
+ []
+
+
+Overfull \hbox (16.40453pt too wide) in paragraph at lines 258--267
+\OT1/cmr/m/n/10 se torna o primeiro jogo de ar-cade bem suce-dido, ini-ciando as-sim a era da cres-cente pop- 
+ []
+
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-4-1.pdf, id=24, 469.755pt x 325.215pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-4-1.pdf  used on input line 269.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+
+Overfull \hbox (72.26888pt too wide) in paragraph at lines 269--269
+[][] 
+ []
+
+
+Overfull \hbox (7.18233pt too wide) in paragraph at lines 272--276
+[]\OT1/cmr/m/n/10 O gr^^Safico acima demon-stra a rela^^Xc~ao pro-por-cional-mente di-reta en-tre o n^^Sumero de 
+ []
+
+
+Overfull \hbox (4.40468pt too wide) in paragraph at lines 272--276
+\OT1/cmr/m/n/10 jo-gos de-sen-volvi-dos/produzidos no ano, rep-re-sen-tado pela linha azul, e a pop-u-lar-i-dade 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[4 <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-4-1.pdf>]
+Overfull \hbox (25.00177pt too wide) in paragraph at lines 277--280
+[]\OT1/cmr/m/n/10 Gra^^Xcas aos cont^^S^^Pnuos avan^^Xcos tec-nol^^Sogicos, no-vas platafor-mas, ca-pazes de ex-e-cutarem 
+ []
+
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-5-1.pdf, id=33, 469.755pt x 325.215pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-5-1.pdf  used on input line 282.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+
+Overfull \hbox (72.26888pt too wide) in paragraph at lines 282--282
+[][] 
+ []
+
+
+Overfull \hbox (7.68234pt too wide) in paragraph at lines 285--288
+[]\OT1/cmr/m/n/10 No gr^^Safico acima, onde est~ao as 20 platafor-mas de jo-gos mais pop-uleres his-tori-ca- 
+ []
+
+
+Overfull \hbox (2.46011pt too wide) in paragraph at lines 285--288
+\OT1/cmr/m/n/10 mente, observa-se que quem lid-era ^^Se o PlaySta-tion2, levando em con-sid-era^^Xc~ao a quan- 
+ []
+
+
+Overfull \hbox (8.76564pt too wide) in paragraph at lines 289--294
+[]\OT1/cmr/m/n/10 Como ^^Se de se es-perar, videogames acabam abor-dando difer-entes temas, for-mas de 
+ []
+
+
+Overfull \hbox (15.43236pt too wide) in paragraph at lines 289--294
+\OT1/cmr/m/n/10 jo-ga-bil-i-dades e den-tre out-ras mec^anicas. Com isso, os g^eneros dos jo-gos acabam tamb^^Sem 
+ []
+
+
+Overfull \hbox (26.15457pt too wide) in paragraph at lines 289--294
+\OT1/cmr/m/n/10 in-flu-en-ciando as tend^encias do mer-cado, as-sim como as platafor-mas nas quais esses g^eneros 
+ []
+
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-1.pdf, id=34, 469.755pt x 469.755pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-1.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-1.pdf  used on input line 296.
+(pdftex.def)             Requested size: 218.61795pt x 218.613pt.
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-2.pdf, id=35, 469.755pt x 469.755pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-2.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-2.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-2.pdf  used on input line 296.
+(pdftex.def)             Requested size: 218.61795pt x 218.613pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+[]\OT1/cmr/m/n/8 (b) |Pop-u-lar-i-dade dos g^eneros nas platafor-mas mais pop-u-
+ []
+
+
+Overfull \hbox (46.41757pt too wide) in paragraph at lines 296--296
+[][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (5.57123pt too wide) in paragraph at lines 299--323
+[]\OT1/cmr/m/n/10 No gr^^Safico (b), ve-mos a evolu^^Xc~ao das ven-das de jo-gos di-vi-di-das pelo g^enero. Nat- 
+ []
+
+
+Overfull \hbox (15.57132pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 u-ral-mente, to-dos os g^eneros tiveram um au-mento de ven-das por volta do anos 1990, pois 
+ []
+
+
+Overfull \hbox (39.62682pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 ^^Se nessa ^^Sepoca que os videogames come^^Xcaram a se di-fundir mais e se con-sol-i-daram na ind^^Sustria 
+ []
+
+
+Overfull \hbox (24.04341pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 global de en-tretern-i-mento. []E nessa ^^Sepoca que con-soles cl^^Sassicos como o SNES e o PlaySta- 
+ []
+
+
+Overfull \hbox (28.90457pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 tion1 s~ao lan^^Xcados. []E in-ter-es-sante no-tar como desde os anos 1980 at^^Se os anos 2010 o gen^ero 
+ []
+
+
+Overfull \hbox (24.07123pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 de A^^Xc~ao sem-pre foi o mais pop-u-lar en-tre os jo-gos, e con-forme o tempo passa essa dist^ancia 
+ []
+
+
+Overfull \hbox (3.96013pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 s^^So au-men-tou. O gr^^Safico de ``mapa de calor'' (a) mostra os g^eneros de jog-sos mais pop- 
+ []
+
+
+Overfull \hbox (24.48793pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 u-lares para as 10 platafor-mas mais pop-u-lares. []E in-ter-es-sanre no-tar como a gen^ero de A^^Xc~ao 
+ []
+
+
+Overfull \hbox (5.84904pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 cos-tuma ser o mais pop-u-lar en-tre to-das as platafor-mas, com exce^^Xc~ao do Nin-tendo Wii, 
+ []
+
+
+Overfull \hbox (11.51564pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 onde o gen^ero de Es-portes ^^Se vi-sivel-mente o mais pop-u-lar. Tal fato se deve a pr^^Sopria na- 
+ []
+
+
+Overfull \hbox (1.68231pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 tureza do con-sole Wii, que ne-ces-sita de mais movi-mento geral do corpo para os jo-gos, 
+ []
+
+
+Overfull \hbox (17.82137pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 algo in-ten-sa-mente ex-plo-rado pela pr^^Sopria da Nin-tendo, prin-ci-pal-mente no mar-ket-ing, que 
+ []
+
+
+Overfull \hbox (4.73782pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 jun-ta-mente com out-ras em-pre-sas, de-sen-volveram di-ver-sos jo-gos de es-portes se aprovei- 
+ []
+
+
+Overfull \hbox (7.98796pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 tando da movi-menta^^Xc~ao dos jo-gadores. Outro ponto in-ter-es-sante e o grande n^^Sumero de 
+ []
+
+
+Overfull \hbox (10.46014pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 jo-gos de Tiro ven-di-dos para o Xbox360, algo que acred-i-ta-mos que se deve a fran-quia de 
+ []
+
+
+Overfull \hbox (5.62685pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 jo-gos Halo, uma s^^Serie de jo-gos de tiro em primeira pes-soa bas-tante pop-u-lar, pro-duzida 
+ []
+
+
+Overfull \hbox (7.43233pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 ex-clu-si-va-mente para os con-soles da Mi-crosoft. Al^^Sem disso, observa-se ainda que muitos 
+ []
+
+
+Overfull \hbox (18.9324pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 jo-gos de Es-portes tamb^^Sem foram ven-di-dos para o PlaySta-tion2, o que cr^eemos se ex-plicar 
+ []
+
+
+Overfull \hbox (15.51578pt too wide) in paragraph at lines 299--323
+\OT1/cmr/m/n/10 pela pop-u-lar-iza^^Xc~ao das fran-quias de jo-gos de fute-bol FIFA e PES a par-tir dos anos 2000.  
+ []
+
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+[5 <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-5-1.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[6 <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-1.pdf> <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-6-2.pdf>]
+Overfull \hbox (17.68227pt too wide) in paragraph at lines 324--326
+[]\OT1/cmr/m/n/10 Assim como a Atari, no-vas em-pre-sas sur-gi-ram e ob-tiveram grande sucesso com suas 
+ []
+
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-7-1.pdf, id=58, 469.755pt x 325.215pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-7-1.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-7-1.pdf  used on input line 328.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+
+Overfull \hbox (72.26888pt too wide) in paragraph at lines 328--328
+[][] 
+ []
+
+[7 <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-7-1.pdf>]
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-8-1.pdf, id=68, 469.755pt x 325.215pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-8-1.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-8-1.pdf  used on input line 334.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+
+Overfull \hbox (72.26888pt too wide) in paragraph at lines 334--334
+[][] 
+ []
+
+
+Overfull \hbox (4.23782pt too wide) in paragraph at lines 337--345
+[]\OT1/cmr/m/n/10 Nos gr^^Saficos acima, onde est~ao as 10 em-pre-sas de jo-gos mais pop-u-lares his-tori-ca- 
+ []
+
+
+Overfull \hbox (2.6546pt too wide) in paragraph at lines 337--345
+\OT1/cmr/m/n/10 mente, ^^Se poss^^S^^Pvel ob-ser-var a Nin-tendo no topo, levando em con-sid-era^^Xc~ao a quan-ti-dade 
+ []
+
+
+Overfull \hbox (1.43237pt too wide) in paragraph at lines 337--345
+\OT1/cmr/m/n/10 de jo-gos ven-di-dos glob-al-mente. Al^^Sem disso, pode-mos ob-ser-var a evolu^^Xc~ao da pre-sen^^Xca 
+ []
+
+
+Overfull \hbox (17.29344pt too wide) in paragraph at lines 337--345
+\OT1/cmr/m/n/10 dessas com-pan-hias no mer-cado, onde ve-mos que em-pre-sas como Actvi-sion, Namco e Nin- 
+ []
+
+
+Overfull \hbox (12.37686pt too wide) in paragraph at lines 337--345
+\OT1/cmr/m/n/10 tendo domi-navam nos anos 1980, mas pas-saram a di-vidir espa^^Xco com em-pre-sas mais no- 
+ []
+
+
+Overfull \hbox (7.48795pt too wide) in paragraph at lines 337--345
+\OT1/cmr/m/n/10 vas que gan-haram mais destaque a par-tir dos anos 1990 e 2000, como a Ubisoft,THQ e 
+ []
+
+[8 <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-8-1.pdf>]
+Overfull \hbox (6.43236pt too wide) in paragraph at lines 348--351
+[]\OT1/cmr/m/n/10 O con-junto de da-dos es-col-hido ran-queia os jo-gos mais ven-di-dos de 1980 at^^Se 2016. 
+ []
+
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf, id=77, 469.755pt x 469.755pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf  used on input line 353.
+(pdftex.def)             Requested size: 218.61795pt x 218.613pt.
+<vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-2.pdf, id=78, 469.755pt x 469.755pt>
+File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-2.pdf Graphic file (type pdf)
+<use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-2.pdf>
+Package pdftex.def Info: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-2.pdf  used on input line 353.
+(pdftex.def)             Requested size: 218.61795pt x 218.613pt.
+
+Overfull \hbox (46.41757pt too wide) in paragraph at lines 353--353
+[][][][] 
+ []
+
+
+Overfull \hbox (22.07124pt too wide) in paragraph at lines 356--366
+[]\OT1/cmr/m/n/10 No gr^^Safico (a), nota-se o tamanho sucesso da Nin-tendo no mer-ca-dos dos videogames. 
+ []
+
+
+Overfull \hbox (10.15454pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 V^^Sarios de seus pro-du-tos est~ao con-ti-dos no top 100, al^^Sem de ser um em-presa que aborda 
+ []
+
+
+Overfull \hbox (5.6822pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 v^^Sarios g^eneros difer-entes em suas obras, contr^^Sario de out-ras em-pre-sas que se ``es-pe-cial- 
+ []
+
+
+Overfull \hbox (20.96007pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 izam'' em cer-tos g^eneros, como a Ac-tivi-sion e Take-Two In-ter-ac-tive. No gr^^Safico (b), pode- 
+ []
+
+
+Overfull \hbox (18.93233pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 mos ob-ser-var a tend^encias dos jo-gos mais bem suce-di-dos serem dos g^eneros de ``Shooter'', 
+ []
+
+
+Overfull \hbox (25.29355pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 ``Plat-form'', ``Ac-tion'' e ``Role-playing''. []E f^^Sacil perce-ber esta tend^encia ao anal-isar grandes 
+ []
+
+
+Overfull \hbox (24.02974pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 cl^^Sassicos, como jo-gos da fran-quia Pok^^Semon (Role-playing), Su-per M^^Sario (Plat-form), Grand 
+ []
+
+
+Overfull \hbox (6.96007pt too wide) in paragraph at lines 369--377
 []\OT1/cmr/m/n/10 Este pro-jeto, ded-i-cado ^^Ra an^^Salise es-tat^^S^^Pstica das ven-das de jo-gos de videogames no 
  []
 
 
-Overfull \hbox (7.96016pt too wide) in paragraph at lines 259--267
+Overfull \hbox (7.96016pt too wide) in paragraph at lines 369--377
 \OT1/cmr/m/n/10 ^ambito da dis-ci-plina ``EST0001 - COMPUTA[][]AO EM ES-TAT[]ISTICA 1'', cul-mina em 
  []
 
 
-Overfull \hbox (5.6546pt too wide) in paragraph at lines 259--267
+Overfull \hbox (5.6546pt too wide) in paragraph at lines 369--377
 \OT1/cmr/m/n/10 uma com-pila^^Xc~ao metic-u-losa e pro-funda das de-scober-tas, desta-cando in-sights rel-e-vantes 
  []
 
 
-Overfull \hbox (37.04352pt too wide) in paragraph at lines 259--267
+Overfull \hbox (37.04352pt too wide) in paragraph at lines 369--377
 \OT1/cmr/m/n/10 que tran-scen-dem sim-ples n^^Sumeros. Ao imer-gir nas com-plex-i-dades do mer-cado de videogames, 
  []
 
 
-Overfull \hbox (14.65462pt too wide) in paragraph at lines 259--267
+Overfull \hbox (14.65462pt too wide) in paragraph at lines 369--377
 \OT1/cmr/m/n/10 abor-dando suas par-tic-u-lar-i-dades e nu-ances, esta in-ves-tiga^^Xc~ao visa con-tribuir sub-stan-cial- 
  []
 
 
-Overfull \hbox (12.0157pt too wide) in paragraph at lines 259--267
+Overfull \hbox (12.0157pt too wide) in paragraph at lines 369--377
 \OT1/cmr/m/n/10 mente para uma com-preens~ao mais abrangente das din^amicas desse se-tor mul-ti-fac-etado.  
  []
 
 
-Overfull \hbox (12.51576pt too wide) in paragraph at lines 268--275
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
+[9 <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf> <./vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-2.pdf>]
+Overfull \hbox (12.51576pt too wide) in paragraph at lines 378--385
 []\OT1/cmr/m/n/10 Ao longo desta jor-nada anal^^S^^Ptica, procu-ramos n~ao ape-nas quan-tificar ven-das, iden- 
  []
 
 
-Overfull \hbox (0.65456pt too wide) in paragraph at lines 268--275
+Overfull \hbox (0.65456pt too wide) in paragraph at lines 378--385
 \OT1/cmr/m/n/10 ti-ficar padr~oes ou tra^^Xcar cor-rela^^Xc~oes, mas, de maneira mais sig-ni-fica-tiva, com-preen-der 
  []
 
 
-Overfull \hbox (3.2101pt too wide) in paragraph at lines 268--275
+Overfull \hbox (3.2101pt too wide) in paragraph at lines 378--385
 \OT1/cmr/m/n/10 o tecido in-trin-cado que comp~oe a ind^^Sustria de jo-gos eletr^onicos. A con-stata^^Xc~ao de que 
  []
 
 
-Overfull \hbox (5.07127pt too wide) in paragraph at lines 268--275
+Overfull \hbox (5.07127pt too wide) in paragraph at lines 378--385
 \OT1/cmr/m/n/10 por tr^^Sas de cada ponto de dado h^^Sa uma nar-ra-tiva so-bre pre-fer^encias cul-tur-ais, avan^^Xcos 
  []
 
 
-Overfull \hbox (32.76576pt too wide) in paragraph at lines 268--275
+Overfull \hbox (32.76576pt too wide) in paragraph at lines 378--385
 \OT1/cmr/m/n/10 tec-nol^^Sogicos e es-trat^^Segias de mer-cado adi-ciona uma ca-mada de pro-fun-di-dade ^^Ra nossa an^^Salise.  
  []
 
 
-Overfull \hbox (3.71pt too wide) in paragraph at lines 276--281
+Overfull \hbox (3.71pt too wide) in paragraph at lines 386--391
 []\OT1/cmr/m/n/10 As fer-ra-men-tas es-tat^^S^^Psticas e de pro-grama^^Xc~ao em R foram mais do que meros in- 
  []
 
 
-Overfull \hbox (26.79352pt too wide) in paragraph at lines 276--281
+Overfull \hbox (26.79352pt too wide) in paragraph at lines 386--391
 \OT1/cmr/m/n/10 stru-men-tos; tornaram-se ali-adas na ex-plora^^Xc~ao deste uni-verso dig-i-tal. Ao in-te-grar a riqueza 
  []
 
 
-Overfull \hbox (16.73796pt too wide) in paragraph at lines 276--281
+Overfull \hbox (16.73796pt too wide) in paragraph at lines 386--391
 \OT1/cmr/m/n/10 de t^^Secnicas es-tat^^S^^Psticas com a flex-i-bil-i-dade do R, al-can^^Xcamos n~ao ape-nas uma abor-dagem 
  []
 
 
-Overfull \hbox (8.87682pt too wide) in paragraph at lines 282--287
+Overfull \hbox (8.87682pt too wide) in paragraph at lines 392--397
 []\OT1/cmr/m/n/10 Este pro-jeto n~ao ^^Se uma mera for-mal-i-dade acad^emica; ^^Se uma con-tribui^^Xc~ao tang^^S^^Pvel 
  []
 
 
-Overfull \hbox (16.40462pt too wide) in paragraph at lines 282--287
+Overfull \hbox (16.40462pt too wide) in paragraph at lines 392--397
 \OT1/cmr/m/n/10 para o en-tendi-mento pr^^Satico e pragm^^Satico do mer-cado de videogames. []A me-dida que ap- 
  []
 
 
-Overfull \hbox (14.65448pt too wide) in paragraph at lines 282--287
+Overfull \hbox (14.65448pt too wide) in paragraph at lines 392--397
 \OT1/cmr/m/n/10 re-sen-ta-mos nos-sos acha-dos, re-con-hece-mos que esses in-sights n~ao s~ao ape-nas in-forma^^Xc~oes, 
  []
 
 
-Overfull \hbox (13.93236pt too wide) in paragraph at lines 288--296
+Overfull \hbox (13.93236pt too wide) in paragraph at lines 398--406
 []\OT1/cmr/m/n/10 Em s^^S^^Pntese, a jor-nada por meio das ven-das de jo-gos de videogames, respal-dada por 
  []
 
 
-Overfull \hbox (2.4879pt too wide) in paragraph at lines 288--296
+Overfull \hbox (2.4879pt too wide) in paragraph at lines 398--406
 \OT1/cmr/m/n/10 m^^Setodos es-tat^^S^^Psticos, tran-scen-deu ex-pec-ta-ti-vas. Os re-sul-ta-dos n~ao s~ao ape-nas uma re- 
  []
 
 
-Overfull \hbox (18.82138pt too wide) in paragraph at lines 288--296
+Overfull \hbox (18.82138pt too wide) in paragraph at lines 398--406
 \OT1/cmr/m/n/10 sposta aos de-safios pro-pos-tos pela dis-ci-plina, mas uma in-curs~ao pro-funda em um dom^^S^^Pnio 
  []
 
 
-Overfull \hbox (15.12679pt too wide) in paragraph at lines 288--296
+Overfull \hbox (15.12679pt too wide) in paragraph at lines 398--406
 \OT1/cmr/m/n/10 vi-brante, onde a arte, a tec-nolo-gia e a es-tat^^S^^Pstica con-vergem. Que este tra-balho n~ao ape- 
  []
 
 
-Overfull \hbox (2.7379pt too wide) in paragraph at lines 288--296
+Overfull \hbox (2.7379pt too wide) in paragraph at lines 398--406
 \OT1/cmr/m/n/10 nas preen-cha uma la-cuna no con-hec-i-mento, mas tamb^^Sem in-spire fu-turas ex-plora^^Xc~oes e 
  []
 
 No file vendas_de_jogos_de_videogames.bbl.
-[4] (./vendas_de_jogos_de_videogames.aux)
+[10] (./vendas_de_jogos_de_videogames.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -720,18 +1113,18 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 10433 strings out of 476135
- 165607 string characters out of 5792986
+ 12381 strings out of 476135
+ 207330 string characters out of 5792986
  1934460 words of memory out of 5000000
- 32346 multiletter control sequences out of 15000+600000
+ 34273 multiletter control sequences out of 15000+600000
  563323 words of font info for 54 fonts, out of 8000000 for 9000
  20 hyphenation exceptions out of 8191
- 85i,8n,93p,464b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,10n,93p,592b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk> <c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vendas_de_jogos_de_videogames.pdf (4 pages, 136047 bytes).
+Output written on vendas_de_jogos_de_videogames.pdf (10 pages, 238216 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

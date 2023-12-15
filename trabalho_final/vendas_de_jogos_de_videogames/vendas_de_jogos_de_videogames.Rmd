@@ -38,6 +38,7 @@ bibliography: agutest.bib
 header-includes: 
       - \usepackage{soulutf8}  # For UTF8 chars in TrackChanges
       - \usepackage{hyperref}
+      - \usepackage{caption, graphicx, subfig, epstopdf, enumitem}
 # AGU recommends using the trackchanges LaTeX package in the edition process
 # which is available from this link:
 # https://publications.agu.org/files/2019/02/January-14-2019-latex-templates.zip
@@ -60,6 +61,7 @@ pacman::p_load(tidyverse)
 pacman::p_load(patchwork)
 pacman::p_load(hrbrthemes)
 pacman::p_load(Polychrome)
+pacman::p_load(gt)
 ```
 
 
@@ -91,7 +93,209 @@ Transformando o banco de dados em um dado do tipo tibble e usando as opções de
 
 Com o conjunto de dados alinhado com os objetivos do trabalho, sua análise parte do uso da biblioteca ggplot que, por sua vez, permite melhor visualização e compreensão das relações existentes entre variáveis via gráficos de diferentes tipos.
 
+```{r, echo = F}
+tabela = read.csv("vgsales.csv") %>% tibble()
+tabela = tabela %>%
+  select(-c("NA_Sales", "EU_Sales", "JP_Sales", "Other_Sales"))
+```
+
+
 # Análise de Dados
+Desde 1950, cientistas da computação construíam sistemas de jogos simples para principalmente demonstrarem o poder dos computadores da época. Com o passar dos anos, o poder computacional veio crescendo proporcionalmente, resultando na criação do primeiro jogo de arcade e do primeiro console de videogame doméstico no início da década de 1970 nos Estados Unidos, onde marca o nascimento da indústria moderna dos jogos. Com a "democratização" dos jogos de videogame, em 1972, o jogo Pong da Atari se torna o primeiro jogo de arcade bem sucedido, iniciando assim a era da crescente popularização de videogames.
+
+```{r, echo = F, fig.cap = "Popularidade dos jogos no decorrer dos anos"}
+popularidade_anos = tabela %>%
+  group_by(Year) %>%
+  summarise(n = n(),
+            Total_Sales = sum(Global_Sales))
+
+popularidade_anos %>%
+  ggplot(aes(x=Year)) +
+  geom_line(aes(y=n), color = "royalblue") +
+  geom_line(aes(y=Total_Sales), color = "lightgreen") +
+  scale_y_continuous(
+    name = "Número de jogos",
+    sec.axis = sec_axis(~.*1,name="Vendas Globalmente (em milhões)")) +
+  scale_color_manual(
+    name = "Legenda"
+  ) +
+  labs(
+    x = "Anos",
+  )
+```
+
+O gráfico acima demonstra a relação proporcionalmente direta entre o número de jogos desenvolvidos/produzidos no ano, representado pela linha azul, e a popularidade (medida pela vendas globais), por sua vez representada pela linha verde.
+
+Graças aos contínuos avanços tecnológicos, novas plataformas, capazes de executarem videogames cada vez mais complexos computacionalmente, foram criadas.
+
+```{r, echo = F, fig.cap = "Plataformas mais populares"}
+vendas_por_plataforma <- tabela %>% 
+  group_by(Platform) %>% 
+  summarise(Total = sum(Global_Sales)) %>% 
+  arrange(desc(Total))
+
+plataforma_top20_hist <- vendas_por_plataforma %>%
+  head(20) %>% 
+  ggplot(aes(x = Platform, y = Total)) +
+    geom_bar(aes(fill = Platform), stat = "identity", color="black") +
+    guides(fill = "none") +
+    scale_fill_manual(values=as.vector(glasbey.colors(20))) +
+    labs(
+      y = "vendas globais de jogos (em milhões)",
+      x = "plataforma"
+    ) +
+    theme(
+      panel.background = element_rect(fill = "#EEF0E5")
+      )
+
+plataforma_top20_hist
+```
+
+No gráfico acima, onde estão as 20 plataformas de jogos mais populeres historicamente, observa-se que quem lidera é o PlayStation2, levando em consideração a quantidade de jogos vendidos globalmente.
+
+Como é de se esperar, videogames acabam abordando diferentes temas, formas de jogabilidades e dentre outras mecânicas. Com isso, os gêneros dos jogos acabam também influenciando as tendências do mercado, assim como as plataformas nas quais esses gêneros podem ser explorados ao máximo.
+
+```{r, echo = F, fig.cap="Influência dos gêneros de jogos", fig.subcap=c("Popularidade dos gêneros no decorrer dos anos", "Popularidade dos gêneros nas plataformas mais populares"), out.width='.55\\linewidth', fig.asp=1, fig.ncol=2, fig.nrow=2, message=FALSE}
+
+popularidade_generos = tabela %>%
+  group_by(Year, Genre) %>%
+  summarise(Total_Sales = sum(Global_Sales))
+
+popularidade_generos %>%
+  ggplot(aes(x = Year, y = Total_Sales, fill = Genre)) +
+  geom_area() +
+  scale_fill_brewer(palette = "Paired") +
+  labs(
+    x = "Anos",
+    y= "Vendas globais (em milhões)",
+    fill = "Gêneros"
+  )
+
+plataformas_jogos = tabela %>%
+  group_by(Platform) %>%
+  summarise(n = n()) %>%
+  arrange(desc(n)) %>%
+  head(10)
+
+tabela %>%
+  group_by(Platform,Genre) %>%
+  summarise(Global_Sales = sum(Global_Sales)) %>%
+  filter(Platform %in% plataformas_jogos$Platform) %>%
+  ggplot(aes(Platform,Genre,fill=Global_Sales)) +
+    geom_tile() +
+    scale_fill_gradient(low="lightyellow",high="darkred") + 
+  labs(
+    x = "Plataforma",
+    y = "Gênero",
+    fill = "Vendas globais (em milhões)"
+  )
+
+```
+
+No gráfico (b), vemos a evolução das vendas de jogos divididas pelo gênero. Naturalmente, todos os gêneros tiveram um aumento de vendas por volta do anos 1990, pois é nessa época que os videogames começaram a se difundir mais e se consolidaram na indústria global de entreternimento. É nessa época que consoles clássicos como o SNES e o PlayStation1 são lançados. É interessante notar como desde os anos 1980 até os anos 2010 o genêro de Ação sempre foi o mais popular entre os jogos, e conforme o tempo passa essa distância só aumentou. O gráfico de "mapa de calor" (a) mostra os gêneros de jogsos mais populares para as 10 plataformas mais populares. É interessanre notar como a genêro de Ação costuma ser o mais popular entre todas as plataformas, com exceção do Nintendo Wii, onde o genêro de Esportes é visivelmente o mais popular. Tal fato se deve a própria natureza do console Wii, que necessita de mais movimento geral do corpo para os jogos, algo intensamente explorado pela própria da Nintendo, principalmente no marketing, que juntamente com outras empresas, desenvolveram diversos jogos de esportes se aproveitando da movimentação dos jogadores. Outro ponto interessante e o grande número de jogos de Tiro vendidos para o Xbox360, algo que acreditamos que se deve a franquia de jogos Halo, uma série de jogos de tiro em primeira pessoa bastante popular, produzida exclusivamente para os consoles da Microsoft. Além disso, observa-se ainda que muitos jogos de Esportes também foram vendidos para o PlayStation2, o que crêemos se explicar pela popularização das franquias de jogos de futebol FIFA e PES a partir dos anos 2000.
+
+Assim como a Atari, novas empresas surgiram e obtiveram grande sucesso com suas inovações e produtos, se destacando no mercado.
+
+```{r, echo = F, fig.cap="Popularidade das empresas", message = F}
+publishers_pop <- tabela %>% 
+  group_by(Publisher) %>% 
+  summarise(Total = sum(Global_Sales)) %>% 
+  arrange(desc(Total))
+
+publishers_hist <-  publishers_pop %>% 
+  head(10) %>% 
+  ggplot(aes(x = Publisher, y = Total)) +
+    geom_bar(aes(fill = Publisher),stat = "identity", color="black") +
+    guides(fill = "none") +
+    scale_fill_brewer(palette="Paired") +
+    theme(
+        axis.text.x = element_text(angle = 30, hjust = 1),
+        panel.background = element_rect(fill = "#EEF0E5"),
+          ) +
+    labs(
+      y = "vendas globais (em milhões)",
+      x = "publisher"
+    )
+
+publishers_hist
+
+```
+
+\newpage
+
+```{r, echo = F, fig.cap="Popularidade das empresas ao longo dos anos", message = F}
+publisher_year <- tabela %>% 
+  group_by(Publisher, Year) %>% 
+  summarise(Vendas_Globais = sum(Global_Sales)) %>% 
+  filter(Publisher %in% head(publishers_pop$Publisher, 10))
+
+publisher_dens <- publisher_year %>% 
+  ggplot(aes(x=Year, group=Publisher, fill=Publisher)) +
+    geom_density(adjust=1.5,position="fill")  +
+    scale_fill_brewer(palette="Paired") +
+    labs(
+        y = "proporção das vendas globais",
+        x = "anos",
+        fill = "publisher"
+      ) +
+    theme(
+      plot.margin = margin(0, 1, 0, 1, "cm"),
+      legend.position = "bottom",
+      legend.box = "horizontal",     
+      legend.direction = "horizontal",
+      legend.spacing.x = unit(0.2, "cm"),
+      panel.background = element_rect(fill = "#EEF0E5"),
+      panel.grid.major = element_line(color = "black", linetype = "dotted"),
+      panel.grid.minor = element_blank() 
+    )+
+  guides(fill = guide_legend(title.position = "top" ,ncol = 3))
+
+
+publisher_dens
+
+```
+
+Nos gráficos acima, onde estão as 10 empresas de jogos mais populares historicamente, é possível observar a Nintendo no topo, levando em consideração a quantidade de jogos vendidos globalmente. Além disso, podemos observar a evolução da presença dessas companhias no mercado, onde vemos que empresas como Actvision, Namco e Nintendo dominavam nos anos 1980, mas passaram a dividir espaço com empresas mais novas que ganharam mais destaque a partir dos anos 1990 e 2000, como a Ubisoft,THQ e Take-Two Interactive.
+
+\newpage
+
+O conjunto de dados escolhido ranqueia os jogos mais vendidos de 1980 até 2016. Ao reunir o top 100 jogos mais vendidos, conseguimos observar algumas coisas.
+```{r, echo = F, fig.cap="Relação dos top 100 jogos", message = F, fig.subcap=c("Principais empresas do Top 100 jogos", "Proporção de gêneros no Top 100 jogos"), out.width='.55\\linewidth', fig.asp=1, fig.ncol=2, fig.nrow=2}
+top_cem = tabela %>%
+  filter(Rank <= 100) %>%
+  arrange(Rank)
+
+empresas_top_cem = top_cem %>%
+  group_by(Publisher, Genre) %>%
+  summarise(n = n(),
+            Global_Sales = sum(Global_Sales)) %>%
+  ggplot(aes(x=Publisher, y = n, fill = Genre)) +
+  geom_bar(position="stack", stat="identity") + 
+  scale_fill_brewer(palette = "Paired") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(
+    y= "Número de jogos",
+    fill = "Gêneros"
+  )
+empresas_top_cem
+
+generos_top_cem = top_cem %>%
+  group_by(Genre) %>%
+  summarise(n=n())
+  
+generos_top_cem %>%
+  ggplot(aes(x="",y=n,fill=Genre)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y") + 
+  scale_fill_brewer(palette="Paired") +
+  theme_void() +
+  labs(
+    fill="Gêneros"
+  )
+
+```
+
+No gráfico (a), nota-se o tamanho sucesso da Nintendo no mercados dos videogames. Vários de seus produtos estão contidos no top 100, além de ser um empresa que aborda vários gêneros diferentes em suas obras, contrário de outras empresas que se "especializam" em certos gêneros, como a Activision e Take-Two Interactive. No gráfico (b), podemos observar a tendências dos jogos mais bem sucedidos serem dos gêneros de "Shooter", "Platform", "Action" e "Role-playing". É fácil perceber esta tendência ao analisar grandes clássicos, como jogos da franquia Pokémon (Role-playing), Super Mário (Platform), Grand Theft Auto (Action) e Call of Duty (Shooter).
 
 
 # Conclusão
