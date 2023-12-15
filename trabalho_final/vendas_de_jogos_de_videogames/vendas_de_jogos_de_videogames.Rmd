@@ -60,7 +60,25 @@ if (any(nchar(rmarkdown::metadata$keypoints) > 100)) {
 ```
 
 # Introdução e Objetivos
-<!---texto--->
+A indústria de jogos de videogames emergiu como uma força poderosa e inovadora no cenário do entretenimento global, experimentando um crescimento exponencial ao longo das últimas décadas. Este projeto final da disciplina "EST0001 - COMPUTAÇÃO EM ESTATÍSTICA 1" propõe uma análise estatística aprofundada das vendas de jogos de videogames, visando aplicar os conhecimentos adquiridos durante o curso para explorar padrões, tendências e insights relevantes presentes em um conjunto de dados específico.
+
+## Contextualização
+A escolha de investigar o mercado de videogames como tema central desta análise é respaldada pela sua importância econômica e cultural. No contexto da constante evolução tecnológica e do crescente interesse pela mídia digital, compreender as dinâmicas das vendas de jogos torna-se não apenas uma necessidade para os desenvolvedores e distribuidores, mas também um elemento crucial para os investidores que buscam entender e explorar oportunidades neste setor em expansão.
+
+A indústria de jogos não é apenas um mercado; é um ecossistema dinâmico que reflete as preferências e comportamentos em constante mutação dos consumidores. A análise estatística desse cenário não apenas ilumina as tendências emergentes, mas também oferece uma visão valiosa sobre a interseção entre arte, tecnologia e negócios.
+## Objetivos
+O cerne deste projeto é a aplicação prática dos conhecimentos adquiridos ao longo do curso "EST0001 - COMPUTAÇÃO EM ESTATÍSTICA 1". Os objetivos específicos delineados para esta análise são os seguintes:
+
+### Análise Exploratória dos Dados:
+Realizar uma investigação profunda do conjunto de dados escolhido, buscando identificar padrões, tendências e características distintivas no mercado de jogos de videogame. Isso inclui uma compreensão abrangente das variáveis envolvidas, tais como plataformas, gêneros, regiões e períodos temporais.
+
+### Utilização de Ferramenta R: 
+Aplicar habilidades de programação em R, explorando as funcionalidades das bibliotecas ggplot e tidyverse para criar visualizações impactantes. O uso dessas ferramentas não apenas facilita a interpretação dos dados, mas também permite uma comunicação eficaz das descobertas, tornando a análise acessível e informativa.
+
+### Extração de Insights Estratégicos: 
+Além de descrever o panorama atual do mercado, o projeto visa extrair insights estatísticos que possam orientar decisões estratégicas na indústria de videogames. Isso pode incluir recomendações sobre lançamentos de jogos, segmentação de público-alvo ou até mesmo projeções de vendas com base em padrões históricos identificados.
+
+Em síntese, este projeto propõe-se a ser mais do que uma simples análise estatística; é uma exploração profunda e multidimensional do universo das vendas de jogos de videogames, destacando a interseção entre ciência de dados e uma das formas mais dinâmicas de expressão artística e cultural da atualidade.
 
 # Metodologia
 <!---texto--->

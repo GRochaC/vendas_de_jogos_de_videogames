@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  14 DEC 2023 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  14 DEC 2023 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -207,7 +207,8 @@ Package soulutf8 Warning: This package is obsolete,
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box56
-) (./vendas_de_jogos_de_videogames.aux)
+)
+No file vendas_de_jogos_de_videogames.aux.
 \openout1 = `vendas_de_jogos_de_videogames.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -250,57 +251,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 128.
 
-Overfull \hbox (35.2657pt too wide) in paragraph at lines 155--157
-[]\OT1/cmr/m/n/10 Exercitar os con-hec-i-men-tos adquiri-dos ao longo do curso ``EST0001 - COMPUTA[][]AO 
- []
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-[1{c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (55.29361pt too wide) in paragraph at lines 171--177
-\OT1/cmr/m/n/10 Este doc-u-mento con-siste no re-lat^^Sorio do tra-balho fi-nal da dis-ci-plina ``EST0001 - COMPUTA[][]AO 
- []
-
-
-Overfull \hbox (3.65451pt too wide) in paragraph at lines 171--177
-\OT1/cmr/m/n/10 EM ES-TAT[]ISTICA 1''. Nele se en-con-tra o de-sen-volvi-mento da an^^Salise do con-junto de 
- []
-
-
-Overfull \hbox (15.18237pt too wide) in paragraph at lines 171--177
-\OT1/cmr/m/n/10 da-dos es-col-hido pelo grupo uti-lizando as fer-ra-men-tas prove-nientes do R Mark-down e das 
- []
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 178.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 178.
-
-No file vendas_de_jogos_de_videogames.bbl.
-[2] (./vendas_de_jogos_de_videogames.aux)
- ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-12-11>
- ***********
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.45pt have occurred.
-
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 \end{keypoints}
+                      
 Here is how much of TeX's memory you used:
- 4298 strings out of 476135
- 69508 string characters out of 5792986
- 1927460 words of memory out of 5000000
- 26288 multiletter control sequences out of 15000+600000
- 562476 words of font info for 51 fonts, out of 8000000 for 9000
+ 4274 strings out of 476135
+ 69100 string characters out of 5792986
+ 1925460 words of memory out of 5000000
+ 26271 multiletter control sequences out of 15000+600000
+ 561224 words of font info for 47 fonts, out of 8000000 for 9000
  20 hyphenation exceptions out of 8191
- 85i,8n,93p,252b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on vendas_de_jogos_de_videogames.pdf (2 pages, 108552 bytes).
-PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85i,2n,93p,252b,130s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+!  ==> Fatal error occurred, no output PDF file produced!
