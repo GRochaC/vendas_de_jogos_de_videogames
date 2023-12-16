@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  15 DEC 2023 03:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  15 DEC 2023 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,6 +938,11 @@ Overfull \hbox (6.43236pt too wide) in paragraph at lines 348--351
 []\OT1/cmr/m/n/10 O con-junto de da-dos es-col-hido ran-queia os jo-gos mais ven-di-dos de 1980 at^^Se 2016. 
  []
 
+
+Overfull \hbox (17.12689pt too wide) in paragraph at lines 348--351
+\OT1/cmr/m/n/10 Quando re-uni-mos o top 100 jo-gos mais ven-di-dos, con-seguimos ob-ser-var al-gu-mas rela^^Xc~oes.  
+ []
+
 <vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf, id=77, 469.755pt x 469.755pt>
 File: vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (type pdf)
 <use vendas_de_jogos_de_videogames_files/figure-latex/unnamed-chunk-9-1.pdf>
@@ -954,38 +959,38 @@ Overfull \hbox (46.41757pt too wide) in paragraph at lines 353--353
  []
 
 
-Overfull \hbox (22.07124pt too wide) in paragraph at lines 356--366
-[]\OT1/cmr/m/n/10 No gr^^Safico (a), nota-se o tamanho sucesso da Nin-tendo no mer-ca-dos dos videogames. 
+Overfull \hbox (18.1268pt too wide) in paragraph at lines 356--366
+[]\OT1/cmr/m/n/10 No gr^^Safico (a), nota-se o tamanho sucesso da Nin-tendo no mer-cado dos videogames. 
  []
 
 
-Overfull \hbox (10.15454pt too wide) in paragraph at lines 356--366
-\OT1/cmr/m/n/10 V^^Sarios de seus pro-du-tos est~ao con-ti-dos no top 100, al^^Sem de ser um em-presa que aborda 
+Overfull \hbox (15.15456pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 V^^Sarios de seus pro-du-tos est~ao con-ti-dos no top 100, al^^Sem de ser uma em-presa que aborda 
  []
 
 
-Overfull \hbox (5.6822pt too wide) in paragraph at lines 356--366
-\OT1/cmr/m/n/10 v^^Sarios g^eneros difer-entes em suas obras, contr^^Sario de out-ras em-pre-sas que se ``es-pe-cial- 
+Overfull \hbox (4.01553pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 v^^Sarios g^eneros difer-entes em suas obras, ao contr^^Sario de out-ras em-pre-sas que se ``es-pe- 
  []
 
 
-Overfull \hbox (20.96007pt too wide) in paragraph at lines 356--366
-\OT1/cmr/m/n/10 izam'' em cer-tos g^eneros, como a Ac-tivi-sion e Take-Two In-ter-ac-tive. No gr^^Safico (b), pode- 
+Overfull \hbox (8.18227pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 cial-izam'' em cer-tos g^eneros, como a Ac-tivi-sion e Take-Two In-ter-ac-tive. No gr^^Safico (b), 
  []
 
 
-Overfull \hbox (18.93233pt too wide) in paragraph at lines 356--366
-\OT1/cmr/m/n/10 mos ob-ser-var a tend^encias dos jo-gos mais bem suce-di-dos serem dos g^eneros de ``Shooter'', 
+Overfull \hbox (43.98795pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 pode-mos ob-ser-var as tend^encias dos jo-gos mais bem suce-di-dos serem dos g^eneros de ``Shooter'', 
  []
 
 
-Overfull \hbox (25.29355pt too wide) in paragraph at lines 356--366
-\OT1/cmr/m/n/10 ``Plat-form'', ``Ac-tion'' e ``Role-playing''. []E f^^Sacil perce-ber esta tend^encia ao anal-isar grandes 
+Overfull \hbox (11.93245pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 ``Plat-form'', ``Ac-tion'' ou ``Role-playing''. []E f^^Sacil perce-ber esta tend^encia ao anal-is-ar-mos 
  []
 
 
-Overfull \hbox (24.02974pt too wide) in paragraph at lines 356--366
-\OT1/cmr/m/n/10 cl^^Sassicos, como jo-gos da fran-quia Pok^^Semon (Role-playing), Su-per M^^Sario (Plat-form), Grand 
+Overfull \hbox (6.93243pt too wide) in paragraph at lines 356--366
+\OT1/cmr/m/n/10 grandes cl^^Sassicos do mundo dos jo-gos, como a fran-quia Pok^^Semon (Role-playing), Su-per 
  []
 
 
@@ -1121,7 +1126,7 @@ Here is how much of TeX's memory you used:
  20 hyphenation exceptions out of 8191
  85i,10n,93p,592b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk> <c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/Users/Guilherme/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vendas_de_jogos_de_videogames.pdf (10 pages, 238216 bytes).
+Output written on vendas_de_jogos_de_videogames.pdf (10 pages, 238243 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream

@@ -259,7 +259,7 @@ Nos gráficos acima, onde estão as 10 empresas de jogos mais populares historic
 
 \newpage
 
-O conjunto de dados escolhido ranqueia os jogos mais vendidos de 1980 até 2016. Ao reunir o top 100 jogos mais vendidos, conseguimos observar algumas coisas.
+O conjunto de dados escolhido ranqueia os jogos mais vendidos de 1980 até 2016. Quando reunimos o top 100 jogos mais vendidos, conseguimos observar algumas relações.
 ```{r, echo = F, fig.cap="Relação dos top 100 jogos", message = F, fig.subcap=c("Principais empresas do Top 100 jogos", "Proporção de gêneros no Top 100 jogos"), out.width='.55\\linewidth', fig.asp=1, fig.ncol=2, fig.nrow=2}
 top_cem = tabela %>%
   filter(Rank <= 100) %>%
@@ -295,7 +295,7 @@ generos_top_cem %>%
 
 ```
 
-No gráfico (a), nota-se o tamanho sucesso da Nintendo no mercados dos videogames. Vários de seus produtos estão contidos no top 100, além de ser um empresa que aborda vários gêneros diferentes em suas obras, contrário de outras empresas que se "especializam" em certos gêneros, como a Activision e Take-Two Interactive. No gráfico (b), podemos observar a tendências dos jogos mais bem sucedidos serem dos gêneros de "Shooter", "Platform", "Action" e "Role-playing". É fácil perceber esta tendência ao analisar grandes clássicos, como jogos da franquia Pokémon (Role-playing), Super Mário (Platform), Grand Theft Auto (Action) e Call of Duty (Shooter).
+No gráfico (a), nota-se o tamanho sucesso da Nintendo no mercado dos videogames. Vários de seus produtos estão contidos no top 100, além de ser uma empresa que aborda vários gêneros diferentes em suas obras, ao contrário de outras empresas que se "especializam" em certos gêneros, como a Activision e Take-Two Interactive. No gráfico (b), podemos observar as tendências dos jogos mais bem sucedidos serem dos gêneros de "Shooter", "Platform", "Action" ou "Role-playing". É fácil perceber esta tendência ao analisarmos grandes clássicos do mundo dos jogos, como a franquia Pokémon (Role-playing), Super Mário (Platform), Grand Theft Auto (Action) e Call of Duty (Shooter).
 
 
 # Conclusão
